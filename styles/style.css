@@ -58,7 +58,7 @@
   width: 100%;
 }
 
-.header__address_link {
+.header__address-link {
   text-underline-offset: 4px;
 }
 
@@ -312,7 +312,7 @@
   padding-left: 1px;
 }
 
-.footer__address_link {
+.footer__address-link {
   text-underline-offset: 4px;
   list-style-type: none;
 }
