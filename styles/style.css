@@ -58,7 +58,7 @@
   width: 100%;
 }
 
-.address_link {
+.header__address_link {
   text-underline-offset: 4px;
 }
 
@@ -72,9 +72,6 @@
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.6);
-}
-
-.overlay {
 }
 
 .cover {
@@ -315,7 +312,7 @@
   padding-left: 1px;
 }
 
-.address_link {
+.footer__address_link {
   text-underline-offset: 4px;
   list-style-type: none;
 }
