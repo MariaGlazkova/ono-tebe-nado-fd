@@ -30,6 +30,10 @@
   list-style-type: none;
 }
 
+.header__link_active {
+  text-decoration: none;
+}
+
 .header__logo {
   display: block;
   width: 134px;
@@ -58,12 +62,8 @@
   padding-top: 4px;
 }
 
-.header__address-link {
+.address-link {
   text-underline-offset: 4px;
-}
-
-.address__street {
-  list-style-type: none;
 }
 
 .overlay:before {
@@ -76,7 +76,7 @@
 
 .cover {
   position: relative;
-  height: 757px;
+  min-height: 757px;
   padding: 165px 50px 50px 50px;
   background-image: url(../images/cover.jpg);
   background-position: center;
@@ -229,6 +229,7 @@
 .lots__look-more-link {
   display: block;
   margin: 30px 0 0 40px;
+  width: fit-content;
   color: #000;
   font-weight: 400;
   font-size: 20px;
@@ -303,18 +304,12 @@
   margin-right: 50px;
   margin-bottom: 82px;
   margin-left: 51px;
-  padding-right: 4px;
 }
 
 .footer__address {
   justify-self: start;
   padding-top: 2px;
   padding-left: 1px;
-}
-
-.footer__address-link {
-  text-underline-offset: 4px;
-  list-style-type: none;
 }
 
 .footer__menu {
@@ -343,9 +338,8 @@
   display: flex;
   flex-wrap: nowrap;
   gap: 48px;
-  max-width: 240px;
   padding-top: 2px;
-  padding-left: 95px;
+  padding-left: 93px;
   list-style: none;
 }
 
