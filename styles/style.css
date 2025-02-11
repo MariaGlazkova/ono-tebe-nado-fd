@@ -22,10 +22,6 @@
   text-underline-offset: 4px;
 }
 
-.header__links-list-item-about {
-  padding-left: 4px;
-  text-underline-offset: 4px;
-}
 .header__links-list-item_no-bullit {
   list-style-type: none;
 }
